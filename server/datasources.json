@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "accountDS": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://lbAdmin:xyz123@localhost:27017/lbDB",
+    "database": "lbDB",
+    "password": "xyz123",
+    "name": "accountDS",
+    "user": "lbAdmin",
+    "connector": "mongodb"
+  }
+}
